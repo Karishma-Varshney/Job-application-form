@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Job Application</h1>
+            <form>
+                <div>
+                    <div class="left-align">
+                        <p>First name</p>
+                        <input class="text-area" type="text">
+                    </div>
+                    <div class="right-align">
+                        <p>Last name</p>
+                        <input class="text-area" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div class="left-align">
+                        <p>Email</p>
+                        <input class="text-area" type="email">
+                    </div>
+                    <div class="right-align">
+                        <p>Job Role</p>
+                        <label for="dropdown"></label>
+                        <select id="dropdown" name="dropdown"class="text-area">
+                          <option value="" disabled selected>Select an option...</option>
+                          <option value="option1">Web Developer</option>
+                          <option value="option2">Software Engineer</option>
+                          <option value="option3">UI/UX Designer</option>
+                          <option value="option4">Tester</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="left-align">
+                        <p>Address</p>
+                        <textarea name="message" rows="10" cols="98" placeholder="write from here...."></textarea>  
+                    </div>
+                </div>
+                <div>
+                    <div class="left-align">
+                        <p>City</p>
+                        <input class="text-area" type="text">
+                    </div> 
+                    <div class="right-align">
+                        <p>Pincode</p>
+                        <input class="text-area" type="number">
+                    </div>
+                </div>
+                <div>
+                    <div class="left-align">
+                        <p>Date of Birth</p>
+                        <input class="text-area" type="date">
+                    </div> 
+                    <div class="right-align">
+                        <p>Upload your CV</p>
+                        <input type="file" id="file" class="text-area" name="file">
+                    </div>
+                </div>
+                <button id="submit" class="btn">Apply Now!</button>
+            </form>
+        </div>
+    </div>
+    <p id="copyright">©.Copyright.2024.<a href="https://www.linkedin.com/in/karishma-varshney-801898234/" target="_blank" style="text-decoration: none;">Karishma Varshney</a></p>
+</body>
+</html>
